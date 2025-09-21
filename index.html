@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-версия Minecraft</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .block {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            margin-right: 5px;
+            border-radius: 5%;
+        }
+        
+        /* Цвет блоков */
+        .grass { background-color: green; }
+        .stone { background-color: grey; }
+        .dirt { background-color: brown; }
+    </style>
+</head>
+<body>
+    <!-- Простое игровое пространство -->
+    <div id="gameWorld"></div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
